@@ -3,6 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
+* [UI Assets](#UI-Assets)
 * [Technologies](#technologies)
 
 
@@ -17,6 +18,15 @@ When the vehicle stops before a stop sign, it will only stop for a certain perio
 Stopping in front of a stoplight, will also cause the vehicle to behave in different ways as it depends on a different set of factors like which light is activated and if someone is passing through the crossroad. If a user is in the crossroad, the vehicle will stop no matter what, until the crossroad is empty again. If the light is red, the vehicle will stop and start again when it turns green. If the vehicle is about to turn right, in both red and green lights, it will check both streets before it turns.
 <br />
  The vehicle is able to differentiate between these different scenarios by using raycasting. Through raycasting, the vehicle is informed on what object is ahead of it and what behaviour it should perform. The Navigation Mesh System is also utilized to guide the vehicles in their path and determine where they need to go next. In the end the project involves two main scenarios: user walking through a crossroad with a stop sign, and user walking through a stoplight intersection.
+
+## UI Assets
+You can select Autonomous Vehicle UI Screens from below selections, to enable testing on different user interfaces at different stage including Approaching, Stopping & Yielding, and Re-starting.
+![UI Map](/images/UIChart.png)
+The current system supports selection between Pictograms of Humanoid / Traffic Signal / Vehicle icons
+![Pictograms](/images/Color_Pictograms.png)
+selection of Text Signs.
+![Text Signs](/images/Color_TextSigns.png)
+
  
 ## Technologies 
 Project is created with:
